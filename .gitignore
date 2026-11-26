@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data — Planck chains (download separately, see scripts/README)
+external/
+*.txt
+!data/*.csv
+
+# Editor cruft
+.spyderworkspace
+*.orig
